@@ -1,9 +1,13 @@
-for i in range(1,51):
-    if(i%3 == 0 and i%5 == 0):
-        print("fizz buzz")
-    elif(i%5 == 0):
-        print("buzz")
-    elif(i%3 == 0):
-        print("fizz")
-    else:
-        print(i)
+
+
+def executeFizzBuzz(startValue, stopValue, divisors):
+    for i in range(startValue,stopValue):
+        for j in range(len(divisors)):
+            if(i%divisors[j] == 0):
+                if(j == 0):
+                    print("fizz", end= "")
+                if(j == 1):
+                    print("buzz", end = "")
+                print("\n")
+
+executeFizzBuzz(0,50,[3,5])
