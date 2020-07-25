@@ -10,4 +10,15 @@ def executeFizzBuzz(startValue, stopValue, divisors):
                     print("buzz", end = "")
                 print("\n")
 
-executeFizzBuzz(0,50,[3,5])
+def findMaxOfTwoNumbers(num1, num2):
+    if(num1> num2):
+        return num1
+    else:
+        return num2
+
+# executeFizzBuzz(0,50,[3,5])
+
+a = 10
+b = 20
+print(findMaxOfTwoNumbers(a,b))
+
