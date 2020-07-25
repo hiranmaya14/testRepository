@@ -16,7 +16,11 @@ def findMaxOfTwoNumbers(num1, num2):
     else:
         return num2
 
-# executeFizzBuzz(0,50,[3,5])
+def findMinOfTwoNumbers(num1,num2):
+    if(num1 < num2):
+        return num1
+    else:
+        return num2
 
 a = 10
 b = 20
