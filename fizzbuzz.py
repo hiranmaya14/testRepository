@@ -1,5 +1,3 @@
-
-
 def executeFizzBuzz(startValue, stopValue, divisors):
     for i in range(startValue,stopValue):
         for j in range(len(divisors)):
@@ -16,9 +14,15 @@ def findMaxOfTwoNumbers(num1, num2):
     else:
         return num2
 
+
+def printElementsofList(listName):
+    for i in listName:
+        print(i)
+
+    
 # executeFizzBuzz(0,50,[3,5])
 
-a = 10
-b = 20
-print(findMaxOfTwoNumbers(a,b))
+# a = 10
+# b = 20
+# print(findMaxOfTwoNumbers(a,b))
 
